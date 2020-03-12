@@ -157,4 +157,8 @@ router.get("/OnloadCategory", async function(req, res) {
   }
 });
 
+router.all("/", (req, res) => {
+  res.send("HOME PAGE OF NAN");
+});
+
 module.exports = router;
