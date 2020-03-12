@@ -18,6 +18,6 @@ console.log("we are on server.js")
 
 app.use('/', router)
 app.use(express.static(__dirname + '/public'));
-app.listen("8081", () => {
+app.listen(process.env.PORT || 8081, () => {
     console.log("8081")
 })
