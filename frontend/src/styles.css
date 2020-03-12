@@ -1,0 +1,12 @@
+.response{
+    margin-bottom: 5px;
+    font-family: cursive;
+    text-align: left;
+  }
+
+  .buttonFalse{
+    color: black
+  }
+  .buttonTrue{
+    color:red !important;
+  }
